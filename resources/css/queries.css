@@ -1,0 +1,26 @@
+
+/* small computer screens: from 1023 to 1200px */
+@media only screen and (max-width: 1200px) {
+    .row { padding: 0 2% }
+}
+
+/* large tables: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    sections { padding: 60px 0; }
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+/* small tables: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+    
+}
+
+/* small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    
+}
